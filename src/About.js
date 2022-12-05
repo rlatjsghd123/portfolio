@@ -12,6 +12,7 @@ const About = forwardRef((props,aRef) => {
                 <img src='' alt='my' />
             </div>
             <div>
+                <h3 className='intro'>INTRODUCTION</h3>
                 <p>
                 안녕하세요. <strong>프론트앤드 개발자</strong>의 길을 걷고 있는 학생입니다.<br />
                 협업에 있어서 <strong>원활한 커뮤니케이션</strong>을 할 수 있도록 노력하겠습니다.<br />
