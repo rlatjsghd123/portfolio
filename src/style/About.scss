@@ -1,0 +1,63 @@
+.about{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f2f2;
+    .left_deco,.right_deco{
+        position: fixed;
+        font-size: 100px;
+        color: #c5c5c5;
+    }
+    .left_deco{
+        top: 50px;
+        left: 50px;
+    }
+    .right_deco{
+        top: 800px;
+        right: 50px;
+    }
+    .a_inner{
+        width: 1292px;
+        position: absolute;
+        left: 398px;
+        top: 190px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .my_skills{
+            margin-top: 60px;
+            h3{
+                font-size: 24px;
+            }
+            ul{
+                margin-top: 80px;
+                display: flex;
+                align-items: center;
+                li{
+                    margin-right: 50px;
+                    width: 100px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .about_title{
+        font-size: 40px;
+        position: absolute;
+        top: 120px;
+        left: 398px;
+    }
+    &:after{
+        position: absolute;
+        content: "";
+        display: block;
+        width: 1292px;
+        height: 1px;
+        background-color: #999;
+        top: 653px;
+        left: 398px;
+    }
+
+}

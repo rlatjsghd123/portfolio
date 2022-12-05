@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol,li{
+    list-style: none;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #f2f2f2;
+    &:first-child{
+        img{
+            animation: ani2 10s linear 0s infinite alternate;
+            }
+    @keyframes ani2 {
+        0%{top: 0;}
+        100%{top: -2400px;}
+    }
+    }
+    &:nth-child(2){
+        img{
+            animation: ani3 3s linear 0s infinite alternate;
+            }
+    @keyframes ani3 {
+        0%{top: 0;}
+        100%{top: -600px;}
+    }
+    }
+    &:nth-child(3){
+        img{
+            animation: ani4 3s linear 0s infinite alternate;
+            }
+    @keyframes ani4 {
+        0%{top: 0;}
+        100%{top: -430px;}
+    }
+    }
+    &:nth-child(4){
+        img{
+            animation: ani5 3s linear 0s infinite alternate;
+            }
+    @keyframes ani5 {
+        0%{top: 0;}
+        100%{top: -250px;}
+    }
+    }
+    .left_deco,.right_deco{
+        position: fixed;
+        font-size: 100px;
+        color: #c5c5c5;
+    }
+    .left_deco{
+        top: 50px;
+        left: 50px;
+    }
+    .right_deco{
+        top: 800px;
+        right: 50px;
+    }
+    .prev,.next{
+        z-index: 1;
+        font-size: 100px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 1700px;
+        cursor: pointer;
+    }
+    .next{
+        left: 100px;
+    }
+    &:after{
+        position: absolute;
+        content: "";
+        display: block;
+        width: 1292px;
+        height: 1px;
+        background-color: #999;
+        top: 653px;
+        left: 398px;
+    }
+    h2{
+        position: absolute;
+        left: 398px;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 120px;
+    }
+    .project_info{
+        position: absolute;
+        top: 241px;
+        left: 398px;
+        display: flex;
+    }
+    .img_info{
+        position: relative;
+        width: 500px;    
+        height: 300px;
+        overflow: hidden;
+        border-radius: 30px;
+        img{
+            position: absolute;
+            top: 100%;
+            width: 100%;
+        }
+    }
+
+    .text_info{
+        margin-left: 45px;
+        .title{
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .subTitle{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .text{
+            margin-bottom: 30px;
+        }
+        .url{
+            margin-top: 30px;
+        }
+        .list{
+            color: #81c147;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+    }
+}

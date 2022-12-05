@@ -1,0 +1,14 @@
+.wrap{
+    animation: ani 1s linear 0s 1;
+    overflow: hidden;
+    .projects{
+        position: relative;
+        display: flex;
+        width: 400%;
+    }
+}
+
+@keyframes ani{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
