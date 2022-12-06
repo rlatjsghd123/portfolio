@@ -24,15 +24,15 @@ section{
             }
     @keyframes m_ani {
         0%{top: 0;}
-        100%{top: -2211px;}
+        100%{top: -2411px;}
     }
     @keyframes t_ani {
         0%{top: 0;}
-        100%{top: -1327px;}
+        100%{top: -1527px;}
     }
     @keyframes ani2 {
         0%{top: 0;}
-        100%{top: -2425px;}
+        100%{top: -2325px;}
     }
     }
     &:nth-child(2){
@@ -41,7 +41,7 @@ section{
             }
     @keyframes ani3 {
         0%{top: 0;}
-        100%{top: -600px;}
+        100%{top: -532px;}
     }
     }
     &:nth-child(3){
@@ -84,6 +84,9 @@ section{
         left: 1700px;
         cursor: pointer;
         color: #fff;
+        &:hover{
+            color: #000;
+        }
     }
     .next{
         left: 100px;
@@ -104,7 +107,7 @@ section{
         display: flex;
     }
     .img_info{
-        background-color: red;
+        background-color: #fff;
         position: relative;
         width: 600px;    
         height: 400px;
