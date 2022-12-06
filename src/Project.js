@@ -3,7 +3,7 @@ import {FaCheck,FaGithub,FaChrome } from 'react-icons/fa'
 import {FiArrowDownRight,FiArrowUpLeft} from "react-icons/fi"
 import './style/project.scss'
 
-function Project({mimgSrc,imgSrc,imgAlt,title,subTitle,text,language,GitHref,URLHref,FaChevronRight,FaChevronLeft,project}) {
+function Project({timgSrc,mimgSrc,imgSrc,imgAlt,title,subTitle,text,language,GitHref,URLHref,FaChevronRight,FaChevronLeft,project}) {
 
   return (
         <section>
@@ -15,7 +15,7 @@ function Project({mimgSrc,imgSrc,imgAlt,title,subTitle,text,language,GitHref,URL
                     <img src={imgSrc} alt={imgAlt} />
                 </div>
                 <div className='tablet_img'>
-                    <img src={imgSrc} alt={imgAlt} className="t_img" />
+                    <img src={timgSrc} alt={imgAlt} className="t_img" />
                 </div>
                 <div className='moblie_img'>
                     <img src={mimgSrc} alt={imgAlt} className='m_img' />
