@@ -20,6 +20,11 @@ function Project({timgSrc,mimgSrc,imgSrc,imgAlt,title,subTitle,text,language,Git
                 <div className='moblie_img'>
                     <img src={mimgSrc} alt={imgAlt} className='m_img' />
                 </div>
+                <div className='kakao_video'>
+                    <video autoplay loop>
+                        <source src='img/kakao.mp4' type='mp4/video' />
+                    </video>
+                </div>
                 <div className='text_info'>
                 <h3 className='title'>{title}</h3>
                 <p className='subTitle'>{subTitle}</p>

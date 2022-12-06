@@ -12,6 +12,12 @@ section{
     width: 100%;
     height: 100vh;
     background-color: #222;
+    .kakao_video{
+        display: none;
+        video{
+            display: none;
+        }
+    }
     &:first-child{
         img{
             animation: ani2 10s linear 0s infinite alternate;
@@ -20,7 +26,7 @@ section{
                 animation: m_ani 10s linear 0s infinite alternate;
             }
             .t_img{
-                animation: t_ani 7s linear 0s infinite alternate;
+                animation: t_ani 10s linear 0s infinite alternate;
             }
     @keyframes m_ani {
         0%{top: 0;}
@@ -59,8 +65,24 @@ section{
     }
     }
     &:nth-child(3){
+        .kakao_video{
+            display: block;
+            background-color: #fff;
+            border-radius: 30px;
+            overflow: hidden;
+            width: 250px;    
+            height: 400px;
+            video{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .img_info,
+        .moblie_img,
+        .tablet_img{display: none;}
         img{
-            animation: ani4 3s linear 0s infinite alternate;
+        display: none;
             }
     @keyframes ani4 {
         0%{top: 0;}
