@@ -1,6 +1,7 @@
 import React, { useState,useRef } from 'react'
 import {FaCheck,FaGithub,FaChrome } from 'react-icons/fa'
 import {FiArrowDownRight,FiArrowUpLeft} from "react-icons/fi"
+import { Player } from 'video-react';
 import './style/project.scss'
 
 function Project({timgSrc,mimgSrc,imgSrc,imgAlt,title,subTitle,text,language,GitHref,URLHref,FaChevronRight,FaChevronLeft,project}) {
@@ -21,9 +22,11 @@ function Project({timgSrc,mimgSrc,imgSrc,imgAlt,title,subTitle,text,language,Git
                     <img src={mimgSrc} alt={imgAlt} className='m_img' />
                 </div>
                 <div className='kakao_video'>
-                    <video autoPlay muted loop width="100%" height="100%">
-                        <source src='video/kakao.mp4' type='mp4/video' />
-                    </video>
+                <Player
+                    playsInline
+                    poster="img/kakao.png"
+                    src="video/kakao.mp4"
+                    />
                 </div>
                 <div className='text_info'>
                 <h3 className='title'>{title}</h3>
