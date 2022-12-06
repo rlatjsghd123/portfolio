@@ -26,7 +26,12 @@ function Header({onClick}) {
         </ul>
         <svg viewBox="0 0 1320 300" className='text_ani'>
         <text x="50%" y="50%" dy=".35em" text-anchor="middle">
-        김선홍의 PROTPOLIO
+        김선홍의
+        </text>
+        </svg>  
+        <svg viewBox="0 0 1320 300" className='text_ani3'>
+        <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+        PROTPOLIO
         </text>
         </svg>  
         <svg viewBox="0 0 1320 300" className='text_ani2'>

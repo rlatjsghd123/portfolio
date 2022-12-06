@@ -69,19 +69,10 @@ section{
         transform: translateY(-50%);
         left: 1700px;
         cursor: pointer;
+        color: #fff;
     }
     .next{
         left: 100px;
-    }
-    &:after{
-        position: absolute;
-        content: "";
-        display: block;
-        width: 1292px;
-        height: 1px;
-        background-color: #999;
-        top: 653px;
-        left: 398px;
     }
     h2{
         position: absolute;
@@ -90,6 +81,7 @@ section{
         font-weight: bold;
         text-align: center;
         padding-top: 120px;
+        color: #4285F4;
     }
     .project_info{
         position: absolute;
@@ -98,9 +90,40 @@ section{
         display: flex;
     }
     .img_info{
+        background-color: red;
         position: relative;
-        width: 500px;    
-        height: 300px;
+        width: 600px;    
+        height: 400px;
+        overflow: hidden;
+        border-radius: 30px;
+        img{
+            position: absolute;
+            top: 100%;
+            width: 100%;
+        }
+    }
+    .tablet_img{
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 400px;
+        width: 300px;    
+        height: 200px;
+        overflow: hidden;
+        border-radius: 30px;
+        img{
+            position: absolute;
+            top: 100%;
+            width: 100%;
+        }
+    }
+    .moblie_img{
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: -50px;
+        width: 120px;    
+        height: 200px;
         overflow: hidden;
         border-radius: 30px;
         img{
@@ -111,7 +134,8 @@ section{
     }
 
     .text_info{
-        margin-left: 45px;
+        margin-left: 150px;
+        color: #fff;
         .title{
             font-size: 24px;
             margin-bottom: 30px;
@@ -134,15 +158,17 @@ section{
                     padding: 10px;
                     display: inline-block;
                     text-decoration: none;
-                    color: #222;
+                    color: #fff;
                     font-size: 16px;
                     border: 1px solid #222;
                     border-radius: 5px;
                     text-align: center;
                     margin-right: 3px;
+                    background: #000;
+                    transition: all 0.2s linear 0s;
                     &:hover{
-                        color: #fff;
-                        background: #222;
+                        color: #000;
+                        background: #fff;
                     }
                 }
             }

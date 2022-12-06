@@ -62,16 +62,6 @@ header{
                 }
             }
         }
-        &:after{
-            position: absolute;
-            content: "";
-            display: block;
-            width: 1292px;
-            height: 1px;
-            background-color: #999;
-            top: 653px;
-            left: 398px;
-        }
         h1,p{
             position: absolute;
             left: 398px;
@@ -103,6 +93,22 @@ header{
 }
 
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
+.text_ani3{
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    top: 50%; 
+    left: 0;
+    transform: translateY(-50%);
+    text {
+        text-transform: uppercase;
+        animation: stroke 5s 1 alternate;
+        stroke-width: 1;
+        fill: transparent;
+        stroke: #fff;
+        font-size: 42px;
+        font-weight: bold;
+      }
+}
 .text_ani2{
     font-family: 'Russo One', sans-serif;
     position: absolute;
@@ -120,11 +126,10 @@ header{
       }
 }
 .text_ani {
-    z-index: 3;
     font-family: 'Russo One', sans-serif;
     position: absolute;
-    top: 50%; 
-    left: 0;
+    top: 42%; 
+    left: -85px;
     transform: translateY(-50%);
   text {
     text-transform: uppercase;

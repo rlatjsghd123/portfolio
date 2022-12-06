@@ -14,6 +14,12 @@ function Project({imgSrc,imgAlt,title,subTitle,text,language,GitHref,URLHref,FaC
                 <div className='img_info'>
                     <img src={imgSrc} alt={imgAlt} />
                 </div>
+                <div className='tablet_img'>
+                    <img src={imgSrc} alt={imgAlt} />
+                </div>
+                <div className='moblie_img'>
+                    <img src={imgSrc} alt={imgAlt} />
+                </div>
                 <div className='text_info'>
                 <h3 className='title'>{title}</h3>
                 <p className='subTitle'>{subTitle}</p>

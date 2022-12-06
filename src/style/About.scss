@@ -3,6 +3,9 @@
     width: 100%;
     height: 100vh;
     background-color: #222;
+    .about_title{
+        color: #0F9D58;
+    }
     .left_deco,.right_deco{
         position: fixed;
         font-size: 100px;
@@ -24,6 +27,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        color: #fff;
         .intro{
             margin-bottom: 50px;
             font-size: 24px;
@@ -39,7 +43,7 @@
                 align-items: center;
                 li{
                     margin-right: 50px;
-                    width: 100px;
+                    width: 70px;
                     img{
                         width: 100%;
                     }
@@ -53,15 +57,4 @@
         top: 120px;
         left: 398px;
     }
-    &:after{
-        position: absolute;
-        content: "";
-        display: block;
-        width: 1292px;
-        height: 1px;
-        background-color: #999;
-        top: 653px;
-        left: 398px;
-    }
-
 }
