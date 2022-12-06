@@ -21,7 +21,7 @@ const About = forwardRef((props,aRef) => {
                 <div className='my_skills'>
                     <h3 className='skill_title'>SKILLS</h3>
                     <ul className='skills'>
-                        <li><img src='img/logo192.png' alt='html5' /></li>
+                        <li><img src="img/logo192.png" alt='html5' /></li>
                         <li><img src='img/CSS3_logo.png' alt='css' /></li>
                         <li><img src='img/sass.png' alt='scss' /></li>
                         <li><img src='img/javascript.png' alt='js' /></li>

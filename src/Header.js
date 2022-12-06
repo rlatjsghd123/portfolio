@@ -7,12 +7,12 @@ function Header({onClick}) {
 
   return (
     <header>
-        <div class="circles" id="circles">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>  
-        <aside class="warning">
+        <div className="circles" id="circles">
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>  
+        <aside className="warning">
         </aside>
         </div>
         <FiArrowDownRight className='left_deco' />
@@ -24,17 +24,17 @@ function Header({onClick}) {
             <li>CONTECT</li>
         </ul>
         <svg viewBox="0 0 1320 300" className='text_ani'>
-        <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+        <text x="50%" y="50%" dy=".35em" textAnchor="middle">
         김선홍의
         </text>
         </svg>  
         <svg viewBox="0 0 1320 300" className='text_ani3'>
-        <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+        <text x="50%" y="50%" dy=".35em" textAnchor="middle">
         PROTPOLIO
         </text>
         </svg>  
         <svg viewBox="0 0 1320 300" className='text_ani2'>
-        <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+        <text x="50%" y="50%" dy=".35em" textAnchor="middle">
         FRONT-END DEVELOFER
         </text>
         </svg>
