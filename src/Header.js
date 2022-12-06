@@ -1,7 +1,6 @@
 
 import './style/Header.scss'
 import {FiArrowDownRight,FiArrowUpLeft} from "react-icons/fi"
-import Text from 'react-text-typing';
 import { useEffect, useRef, useState } from 'react';
 
 function Header({onClick}) {

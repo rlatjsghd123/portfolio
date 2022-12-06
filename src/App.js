@@ -42,7 +42,7 @@ function App() {
     <Header onClick={onClick} ref={hRef} />
     <About ref={aRef} />
     <div className='projects' ref={pRef}>
-      <Project project={"1 . PROJECT"} FaChevronRight={<FaChevronRight className='prev' onClick={ArrowRightClick} />} FaChevronLeft={<FaChevronLeft className='next' onClick={ArrowLeftClick}/>} imgSrc={'img/locknlock.png'} imgAlt={"locknlock홈페이지"} title={"LOCKNLOCK"} subTitle={"LOCKNLOCK공식홈페이지 클론코딩"} language={"HTML5,CSS,Javascript"} GitHref={"https://github.com/rlatjsghd123/webProject03"} URLHref={" https://rlatjsghd123.github.io/webProject03/"}
+      <Project project={"1 . PROJECT"} mimgSrc={'img/locknlock(m).png'} FaChevronRight={<FaChevronRight className='prev' onClick={ArrowRightClick} />} FaChevronLeft={<FaChevronLeft className='next' onClick={ArrowLeftClick}/>} imgSrc={'img/locknlock.png'} imgAlt={"locknlock홈페이지"} title={"LOCKNLOCK"} subTitle={"LOCKNLOCK공식홈페이지 클론코딩"} language={"HTML5,CSS,Javascript"} GitHref={"https://github.com/rlatjsghd123/webProject03"} URLHref={" https://rlatjsghd123.github.io/webProject03/"}
        text={["시멘틱 마크업","웹 표준 및 웹 접근성 고려","크로스 브라우징","반응형 웹사이트"]} />
       <Project project={"2 . PROJECT"} FaChevronRight={<FaChevronRight className='prev' onClick={ArrowRightClick} />} FaChevronLeft={<FaChevronLeft className='next' onClick={ArrowLeftClick}/>} imgSrc={'img/cjone.png'} imgAlt={"cjone홈페이지"} title={"CJ ONE"} subTitle={"CJ ONE공식홈페이지 클론코딩"} language={"HTML5,CSS,Javascript"} GitHref={" https://github.com/rlatjsghd123/webProject02"} URLHref={" https://rlatjsghd123.github.io/webProject02/"}
       text={["시멘틱 마크업","웹 표준 및 웹 접근성 고려","크로스 브라우징","반응형 웹사이트"]} />

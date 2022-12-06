@@ -16,9 +16,23 @@ section{
         img{
             animation: ani2 10s linear 0s infinite alternate;
             }
+            .m_img{
+                animation: m_ani 10s linear 0s infinite alternate;
+            }
+            .t_img{
+                animation: t_ani 7s linear 0s infinite alternate;
+            }
+    @keyframes m_ani {
+        0%{top: 0;}
+        100%{top: -2211px;}
+    }
+    @keyframes t_ani {
+        0%{top: 0;}
+        100%{top: -1327px;}
+    }
     @keyframes ani2 {
         0%{top: 0;}
-        100%{top: -2400px;}
+        100%{top: -2425px;}
     }
     }
     &:nth-child(2){
