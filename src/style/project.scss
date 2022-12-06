@@ -39,9 +39,23 @@ section{
         img{
             animation: ani3 3s linear 0s infinite alternate;
             }
+    .m_img{
+        animation: m_ani3 3s linear 0s infinite alternate;
+    }
+    .t_img{
+        animation: t_ani3 3s linear 0s infinite alternate;
+    }
     @keyframes ani3 {
         0%{top: 0;}
         100%{top: -532px;}
+    }
+    @keyframes m_ani3 {
+        0%{top: 0;}
+        100%{top: -580px;}
+    }
+    @keyframes t_ani3 {
+        0%{top: 0;}
+        100%{top: -994px;}
     }
     }
     &:nth-child(3){
