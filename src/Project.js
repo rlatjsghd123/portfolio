@@ -22,7 +22,7 @@ function Project({timgSrc,mimgSrc,imgSrc,imgAlt,title,subTitle,text,language,Git
                 </div>
                 <div className='kakao_video'>
                     <video autoPlay muted loop width="100%" height="100%">
-                        <source src='img/kakao.mp4' type='mp4/video' />
+                        <source src='video/kakao.mp4' type='mp4/video' />
                     </video>
                 </div>
                 <div className='text_info'>
